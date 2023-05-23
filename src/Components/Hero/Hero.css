@@ -1,0 +1,128 @@
+.hero{
+    width: 100%;
+    height: 912px;
+    background-image: url("../../assets/heroimage.png");
+    background-size: cover;
+    position: relative;
+}
+.innerHero{
+    width: 100%;
+    height: 912px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(21, 37, 25, 0.3);
+}
+.bigText{
+    width: 812px;
+    height: 183px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 61px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: 8.5%;
+    word-spacing: -0.1px;
+}
+.smallText{
+    width: 898px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #c6c3c3fc;
+    margin-top: 2.5rem;
+    padding-left: 4.5%;
+    position: relative;
+}
+/* .smallText::before{
+    content: attr(data-text);
+    position: absolute;
+    color: #222;
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid #c6c3c3fc;
+    animation: animate 8s linear infinite;
+}
+@keyframes animate{
+    0%, 10%, 100%
+    {
+        width: 0;
+    }
+    70%, 100%{
+        width: 100%;
+    }
+} */
+
+@media (max-width: 1024px) {
+    .bigText {
+      width: 70%;
+      font-size: 40px;
+      line-height: 50px;
+      padding-left: 15%;
+    }
+  
+    .smallText {
+      width: 80%;
+      font-size: 20px;
+      line-height: 25px;
+      padding-left: 10%;
+      margin-top: 0rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .bigText {
+      width: 80%;
+      font-size: 35px;
+      line-height: 45px;
+      padding-left: 10%;
+    }
+  
+    .smallText {
+      width: 90%;
+      font-size: 18px;
+      line-height: 23px;
+      padding-left: 5%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .bigText {
+      width: 90%;
+      font-size: 30px;
+      line-height: 40px;
+      padding-left: 5%;
+    }
+  
+    .smallText {
+      width: 100%;
+      font-size: 16px;
+      line-height: 20px;
+      padding-left: 2%;
+    }
+  }
+  @media (max-width: 425px) {
+    .hero{
+      height: 712px;
+    }
+    .innerHero{
+      height: 712px;
+    }
+    .bigText{
+      padding-top: 7rem;
+      width: 95%;
+      padding-left: 2%;
+    }
+    .smallText {
+      width: 90%;
+    }
+  }

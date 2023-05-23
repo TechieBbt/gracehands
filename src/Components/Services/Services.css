@@ -1,0 +1,292 @@
+.innerServ{
+    width: 95%;
+    margin-left: 5%;
+    padding-bottom: 4rem;
+}
+.headServ{
+    display: flex;
+    flex-direction: column;
+}
+.head1{
+    width: 199px;
+    height: 37px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #15271A;
+    padding-bottom: 2rem;
+}
+.head2{
+    width: 805px;
+    height: 61px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #15271A;
+}
+.head3{
+    width: 925px;
+    height: 44px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #8D8A8A;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.cardServ{
+    width: 95%;
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    filter: drop-shadow(4px 4px 89px rgba(0, 0, 0, 0.25));
+}
+.card1{
+    width: 579px;
+    height: 329px;
+    border-radius: 18px;
+    background: url("../../assets/web.png");
+    
+}
+.card2{
+    width: 579px;
+    height: 329px;
+    border-radius: 18px;
+    background: url("../../assets/graphics.png");
+    
+}
+.card3{
+    width: 579px;
+    height: 329px;
+    border-radius: 18px;
+    background: url("../../assets/web.png");
+    
+}
+.card4{
+    width: 579px;
+    height: 329px;
+    border-radius: 18px;
+    background: url("../../assets/web.png");
+    
+}
+.cardText{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 123.73%, rgba(217, 217, 217, 0) 244.63%);
+    border-radius: 18px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 579px;
+    height: 137px;
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+}
+.cardText-a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.cardTextb{
+    display: flex;
+    padding-left: 3rem;
+}
+.cardText-bb{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-top: 1.5rem;
+    width: 438px;
+    height: 66px;
+    padding-left: 2rem;
+}
+.bullet{
+    border: 0px solid #92E3A9;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background: #92E3A9;
+    margin: 3rem -2rem -4rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .innerServ{
+        width: 98%;
+        margin-left: 2%;
+    }
+    .head1{
+        width: 299px;
+    }
+    .head2{
+        font-size: 40px;
+    }
+    .head3{
+        width: 825px;
+        height: 44px;
+        font-size: 16px;
+    }
+    .card1{
+        width: 430px;
+        height: 319px;
+    }
+    .card2{
+        width: 430px;
+        height: 319px;
+    }
+    .card3{
+        width: 430px;
+        height: 319px;
+    }
+    .card4{
+        width: 430px;
+        height: 319px;
+    }
+    .cardText{
+        width: 430px;
+        height: 140px;
+        margin-top: 11rem;
+    }
+    .cardText-a{
+        font-size: 20px;
+    }
+    .cardTextb{
+        display: flex;
+        padding-left: 2rem;
+    }
+    .cardText-bb{
+        font-size: 15px;
+        padding-top: 1.5rem;
+        width: 450px;
+        height: 66px;
+        padding-left: 1.5rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .head1{
+        width: 299px;
+        font-size: 25px;
+    }
+    .head2{
+        font-size: 30px;
+        width: 505px;
+    }
+    .head3{
+        width: 675px;
+        height: 44px;
+        font-size: 13px;
+    }
+    .card1{
+        width: 340px;
+        height: 319px;
+    }
+    .card2{
+        width: 340px;
+        height: 319px;
+    }
+    .card3{
+        width: 340px;
+        height: 319px;
+    }
+    .card4{
+        width: 340px;
+        height: 319px;
+    }
+    .cardText{
+        width: 340px;
+        height: 140px;
+        margin-top: 11rem;
+    }
+    .cardText-a{
+        font-size: 18px;
+        padding-left: 1rem;
+    }
+    .cardTextb{
+        display: flex;
+        padding-left: 1rem;
+    }
+    .cardText-bb{
+        font-size: 12px;
+        padding-top: 1.5rem;
+        width: 450px;
+        height: 66px;
+        padding-left: 1.5rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    .innerServ{
+        margin-top: 20rem;
+        margin-left: 8%;
+    }
+    .headServ{
+        width: 300px;
+    }
+    .head1{
+        width: 299px;
+        font-size: 20px;
+        margin: -3rem 0;
+    }
+    .head2{
+        font-size: 20px;
+        width: 325px;
+        word-spacing: -0.5px;
+        margin-bottom: -1rem;
+    }
+    .head3{
+        width: 325px;
+        height: 44px;
+        font-size: 12px;
+    }
+    .innerServ{
+        margin-left: 0;
+    }
+    .card1{
+        width: 300px;
+        height: 300px;
+    }
+    .card2{
+        width: 300px;
+        height: 300px;
+    }
+    .card3{
+        width: 300px;
+        height: 300px;
+    }
+    .card4{
+        width: 300px;
+        height: 300px;
+    }
+    .cardText{
+        width: 300px;
+        height: 140px;
+        margin-top: 11rem;
+    }
+    .cardText-a{
+        font-size: 18px;
+        padding-left: 1rem;
+    }
+    .cardTextb{
+        display: flex;
+        padding-left: 1rem;
+    }
+    .cardText-bb{
+        font-size: 12px;
+        padding-top: 1.5rem;
+        width: 450px;
+        height: 66px;
+        padding-left: 1.5rem;
+    }
+}
