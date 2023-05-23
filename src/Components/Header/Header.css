@@ -71,7 +71,7 @@
     display: none;
     position: absolute;
     right: 0;
-    height: calc(30vh - 40px);
+    height: calc(40vh - 50px);
     width: 40%;
     border-radius: 20px 0px 0px 20px;
     background: #FFFFFF;
